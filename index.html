@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <title>Iniciar Sesión SIGESA</title>
+    
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom styles for this template -->
+    <link href="./css/signin.css" rel="stylesheet"> 
+</head>
+
+<body class="text-center">
+    <form class="form-signin" method="POST" action="autenticar.php">
+        <img class="mb-4" src="./img/bootstrap-solid.svg" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Iniciar Sesión</h1>
+        <label for="email" class="sr-only">Email</label>
+        <input type="email" id="email" class="form-control" name="email" placeholder="Email" required="" autofocus="">
+        <label for="contrasena" class= "sr-only">Contrasena</label>
+        <input type="password" id="contrasena" class="form-control" name="contrasena" placeholder="Password" required="">
+        <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" value="Recordarme"> Recordarme
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Iniciar Sesión</button>
+        <p class="mt-5 mb-3 text-muted">© 2023</p>
+    </form>
+</body>
+</html>
